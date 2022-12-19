@@ -11,7 +11,7 @@ port = 5555
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 try:
-    s.bind(tuple(server))
+    s.bind(("",port))
 except socket.error as e:
     str(e)
 
