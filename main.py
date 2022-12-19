@@ -3,8 +3,8 @@ from _thread import *
 import pickle
 import random
 
-server = socket.gethostbyname(socket.gethostname())
-#server = "192.168.1.111"
+#server = socket.gethostbyname(socket.gethostname())
+server = "shogi-server-production.up.railway.app"
 print(server)
 port = 5555
 
